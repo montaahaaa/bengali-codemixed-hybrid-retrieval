@@ -1,3 +1,16 @@
 
 # Project specs (private, never pushed)
 specs/
+
+# Environment and secrets
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+
+# Bulk data and models (annotations and experiments stay tracked)
+data/raw/*
+data/processed/*
+data/corpus/*
+models/*
+!**/.gitkeep
