@@ -1,0 +1,62 @@
+% IEEE/ACM Transactions on Audio, Speech, and Language Processing
+% Class: IEEEtran (journal mode). Compile: pdflatex -> bibtex -> pdflatex x2.
+% Each section lives in sections/*.tex. Write a section only when its part of
+% the project is finished (see ../specs/roadmap.md). Unmeasured numbers must
+% use \pending{...}, never a guessed value.
+\documentclass[journal]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+
+% Red marker for anything not yet measured or decided.
+\newcommand{\pending}[1]{\textcolor{red}{[\textbf{TODO:} #1]}}
+% Bengali examples: use Romanized text in the source (e.g., \textit{koto taka lagbe});
+% Bengali script needs XeLaTeX/LuaLaTeX with a Bengali font if added later.
+
+\hyphenation{Ro-man-ized Ben-gali}
+
+\begin{document}
+
+\title{A Benchmark and Hybrid Retrieval Framework for Bengali Code-Mixed Queries in Retrieval-Augmented Generation}
+
+\author{\IEEEauthorblockN{\pending{Author name}}
+\thanks{\pending{Affiliation, funding, and contact information.}}}
+
+\markboth{IEEE/ACM Transactions on Audio, Speech, and Language Processing}%
+{Author \MakeLowercase{\textit{et al.}}: Bengali Code-Mixed Retrieval}
+
+\maketitle
+
+\begin{abstract}
+\pending{Write the abstract last, from the final measured results.}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Code-mixing, Bengali, Romanized text, information retrieval, hybrid retrieval, retrieval-augmented generation, benchmark.
+\end{IEEEkeywords}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_benchmark}
+\input{sections/04_framework}
+\input{sections/05_experimental_setup}
+\input{sections/06_results}
+\input{sections/07_rag_evaluation}
+\input{sections/08_discussion_limitations}
+\input{sections/09_conclusion}
+
+\section*{Ethics and Data Availability}
+\pending{Platform terms, annotator pay, licences, what is released.}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
