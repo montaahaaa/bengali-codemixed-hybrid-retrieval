@@ -1,1 +1,137 @@
 run_name,date,config,metric,value
+stage1_coverage_pilot,2026-11-03,"wikipedia_20231101 en_filter chunk150 n=20 hand-judged",coverage_yes,0.35
+stage1_coverage_pilot,2026-11-03,"wikipedia_20231101 en_filter chunk150 n=20 hand-judged",coverage_yes_or_partial,0.65
+stage1_coverage_pilot_voyage,2026-11-04,"wikipedia_20231101 + wikivoyage_en_bn n=20 hand-judged",coverage_yes,0.4
+stage1_coverage_pilot_voyage,2026-11-04,"wikipedia_20231101 + wikivoyage_en_bn n=20 hand-judged",coverage_yes_or_partial,0.65
+stage2_mining_pilot,2026-11-09,"youtube_api 227 videos + facebook_queries; bm25 top10 + bge-reranker-v2-m3; owner-confirmed n=5609",items_raw,15927
+stage2_mining_pilot,2026-11-09,"youtube_api 227 videos + facebook_queries; bm25 top10 + bge-reranker-v2-m3; owner-confirmed n=5609",grade2_answerable,105
+stage2_mining_pilot,2026-11-09,"youtube_api 227 videos + facebook_queries; bm25 top10 + bge-reranker-v2-m3; owner-confirmed n=5609",grade2_rate_of_graded,0.0187
+stage2_mining_pilot,2026-11-09,"youtube_api 227 videos + facebook_queries; bm25 top10 + bge-reranker-v2-m3; owner-confirmed n=5609",grade1_partial,262
+exp1_bm25/synthetic/bn,2026-11-14,"BM25 full corpus, n=411",r10,0.647
+exp1_bm25/synthetic/bn,2026-11-14,"BM25 full corpus, n=411",r100,0.803
+exp1_bm25/synthetic/bn,2026-11-14,"BM25 full corpus, n=411",mrr,0.497
+exp1_bm25/synthetic/bn,2026-11-14,"BM25 full corpus, n=411",ndcg,0.533
+exp1_bm25/synthetic/mixed,2026-11-14,"BM25 full corpus, n=269",r10,0.357
+exp1_bm25/synthetic/mixed,2026-11-14,"BM25 full corpus, n=269",r100,0.45
+exp1_bm25/synthetic/mixed,2026-11-14,"BM25 full corpus, n=269",mrr,0.243
+exp1_bm25/synthetic/mixed,2026-11-14,"BM25 full corpus, n=269",ndcg,0.27
+exp1_bm25/synthetic/latin,2026-11-14,"BM25 full corpus, n=532",r10,0.032
+exp1_bm25/synthetic/latin,2026-11-14,"BM25 full corpus, n=532",r100,0.058
+exp1_bm25/synthetic/latin,2026-11-14,"BM25 full corpus, n=532",mrr,0.021
+exp1_bm25/synthetic/latin,2026-11-14,"BM25 full corpus, n=532",ndcg,0.023
+exp1_bm25/synthetic/all,2026-11-14,"BM25 full corpus, n=1212",r10,0.313
+exp1_bm25/synthetic/all,2026-11-14,"BM25 full corpus, n=1212",r100,0.398
+exp1_bm25/synthetic/all,2026-11-14,"BM25 full corpus, n=1212",mrr,0.231
+exp1_bm25/synthetic/all,2026-11-14,"BM25 full corpus, n=1212",ndcg,0.251
+exp1_bm25/real/bn,2026-11-14,"BM25 full corpus, n=485",r10,1.0
+exp1_bm25/real/bn,2026-11-14,"BM25 full corpus, n=485",r100,1.0
+exp1_bm25/real/bn,2026-11-14,"BM25 full corpus, n=485",mrr,0.503
+exp1_bm25/real/bn,2026-11-14,"BM25 full corpus, n=485",ndcg,0.62
+exp1_bm25/real/mixed,2026-11-14,"BM25 full corpus, n=28",r10,1.0
+exp1_bm25/real/mixed,2026-11-14,"BM25 full corpus, n=28",r100,1.0
+exp1_bm25/real/mixed,2026-11-14,"BM25 full corpus, n=28",mrr,0.411
+exp1_bm25/real/mixed,2026-11-14,"BM25 full corpus, n=28",ndcg,0.55
+exp1_bm25/real/latin,2026-11-14,"BM25 full corpus, n=17",r10,1.0
+exp1_bm25/real/latin,2026-11-14,"BM25 full corpus, n=17",r100,1.0
+exp1_bm25/real/latin,2026-11-14,"BM25 full corpus, n=17",mrr,0.577
+exp1_bm25/real/latin,2026-11-14,"BM25 full corpus, n=17",ndcg,0.677
+exp1_bm25/real/all,2026-11-14,"BM25 full corpus, n=530",r10,1.0
+exp1_bm25/real/all,2026-11-14,"BM25 full corpus, n=530",r100,1.0
+exp1_bm25/real/all,2026-11-14,"BM25 full corpus, n=530",mrr,0.5
+exp1_bm25/real/all,2026-11-14,"BM25 full corpus, n=530",ndcg,0.618
+exp2_normaliser/synthetic/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=411",r10,0.647
+exp2_normaliser/synthetic/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=411",r100,0.803
+exp2_normaliser/synthetic/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=411",mrr,0.497
+exp2_normaliser/synthetic/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=411",ndcg,0.533
+exp2_normaliser/synthetic/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=411",r10,0.647
+exp2_normaliser/synthetic/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=411",r100,0.803
+exp2_normaliser/synthetic/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=411",mrr,0.497
+exp2_normaliser/synthetic/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=411",ndcg,0.533
+exp2_normaliser/synthetic/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=411",r10,0.645
+exp2_normaliser/synthetic/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=411",r100,0.8
+exp2_normaliser/synthetic/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=411",mrr,0.496
+exp2_normaliser/synthetic/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=411",ndcg,0.532
+exp2_normaliser/synthetic/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=411",r10,0.645
+exp2_normaliser/synthetic/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=411",r100,0.8
+exp2_normaliser/synthetic/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=411",mrr,0.496
+exp2_normaliser/synthetic/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=411",ndcg,0.532
+exp2_normaliser/synthetic/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=269",r10,0.357
+exp2_normaliser/synthetic/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=269",r100,0.45
+exp2_normaliser/synthetic/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=269",mrr,0.243
+exp2_normaliser/synthetic/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=269",ndcg,0.27
+exp2_normaliser/synthetic/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=269",r10,0.387
+exp2_normaliser/synthetic/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=269",r100,0.506
+exp2_normaliser/synthetic/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=269",mrr,0.278
+exp2_normaliser/synthetic/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=269",ndcg,0.304
+exp2_normaliser/synthetic/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=269",r10,0.39
+exp2_normaliser/synthetic/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=269",r100,0.517
+exp2_normaliser/synthetic/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=269",mrr,0.251
+exp2_normaliser/synthetic/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=269",ndcg,0.284
+exp2_normaliser/synthetic/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=269",r10,0.39
+exp2_normaliser/synthetic/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=269",r100,0.52
+exp2_normaliser/synthetic/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=269",mrr,0.226
+exp2_normaliser/synthetic/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=269",ndcg,0.265
+exp2_normaliser/synthetic/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=532",r10,0.032
+exp2_normaliser/synthetic/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=532",r100,0.058
+exp2_normaliser/synthetic/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=532",mrr,0.021
+exp2_normaliser/synthetic/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=532",ndcg,0.023
+exp2_normaliser/synthetic/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=532",r10,0.16
+exp2_normaliser/synthetic/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=532",r100,0.252
+exp2_normaliser/synthetic/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=532",mrr,0.1
+exp2_normaliser/synthetic/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=532",ndcg,0.115
+exp2_normaliser/synthetic/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=532",r10,0.182
+exp2_normaliser/synthetic/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=532",r100,0.286
+exp2_normaliser/synthetic/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=532",mrr,0.101
+exp2_normaliser/synthetic/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=532",ndcg,0.12
+exp2_normaliser/synthetic/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=532",r10,0.154
+exp2_normaliser/synthetic/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=532",r100,0.265
+exp2_normaliser/synthetic/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=532",mrr,0.083
+exp2_normaliser/synthetic/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=532",ndcg,0.1
+exp2_normaliser/real/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=485",r10,1.0
+exp2_normaliser/real/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=485",r100,1.0
+exp2_normaliser/real/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=485",mrr,0.503
+exp2_normaliser/real/bn/K=0,2026-11-14,"BM25 + skeleton lookup, n=485",ndcg,0.62
+exp2_normaliser/real/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=485",r10,1.0
+exp2_normaliser/real/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=485",r100,1.0
+exp2_normaliser/real/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=485",mrr,0.503
+exp2_normaliser/real/bn/K=1,2026-11-14,"BM25 + skeleton lookup, n=485",ndcg,0.62
+exp2_normaliser/real/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=485",r10,1.0
+exp2_normaliser/real/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=485",r100,1.0
+exp2_normaliser/real/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=485",mrr,0.503
+exp2_normaliser/real/bn/K=3,2026-11-14,"BM25 + skeleton lookup, n=485",ndcg,0.619
+exp2_normaliser/real/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=485",r10,1.0
+exp2_normaliser/real/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=485",r100,1.0
+exp2_normaliser/real/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=485",mrr,0.503
+exp2_normaliser/real/bn/K=5,2026-11-14,"BM25 + skeleton lookup, n=485",ndcg,0.619
+exp2_normaliser/real/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=28",r10,1.0
+exp2_normaliser/real/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=28",r100,1.0
+exp2_normaliser/real/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=28",mrr,0.411
+exp2_normaliser/real/mixed/K=0,2026-11-14,"BM25 + skeleton lookup, n=28",ndcg,0.55
+exp2_normaliser/real/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=28",r10,0.857
+exp2_normaliser/real/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=28",r100,1.0
+exp2_normaliser/real/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=28",mrr,0.378
+exp2_normaliser/real/mixed/K=1,2026-11-14,"BM25 + skeleton lookup, n=28",ndcg,0.491
+exp2_normaliser/real/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=28",r10,0.821
+exp2_normaliser/real/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=28",r100,0.964
+exp2_normaliser/real/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=28",mrr,0.325
+exp2_normaliser/real/mixed/K=3,2026-11-14,"BM25 + skeleton lookup, n=28",ndcg,0.44
+exp2_normaliser/real/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=28",r10,0.714
+exp2_normaliser/real/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=28",r100,0.893
+exp2_normaliser/real/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=28",mrr,0.309
+exp2_normaliser/real/mixed/K=5,2026-11-14,"BM25 + skeleton lookup, n=28",ndcg,0.404
+exp2_normaliser/real/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=17",r10,1.0
+exp2_normaliser/real/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=17",r100,1.0
+exp2_normaliser/real/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=17",mrr,0.577
+exp2_normaliser/real/latin/K=0,2026-11-14,"BM25 + skeleton lookup, n=17",ndcg,0.677
+exp2_normaliser/real/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=17",r10,1.0
+exp2_normaliser/real/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=17",r100,1.0
+exp2_normaliser/real/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=17",mrr,0.577
+exp2_normaliser/real/latin/K=1,2026-11-14,"BM25 + skeleton lookup, n=17",ndcg,0.677
+exp2_normaliser/real/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=17",r10,0.882
+exp2_normaliser/real/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=17",r100,1.0
+exp2_normaliser/real/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=17",mrr,0.433
+exp2_normaliser/real/latin/K=3,2026-11-14,"BM25 + skeleton lookup, n=17",ndcg,0.538
+exp2_normaliser/real/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=17",r10,0.529
+exp2_normaliser/real/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=17",r100,0.941
+exp2_normaliser/real/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=17",mrr,0.328
+exp2_normaliser/real/latin/K=5,2026-11-14,"BM25 + skeleton lookup, n=17",ndcg,0.377

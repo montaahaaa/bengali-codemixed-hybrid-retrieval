@@ -1,0 +1,12 @@
+{
+ "rows_in": 1224,
+ "has_code_mixed+romanized": 1154,
+ "mixed_bad": 10,
+ "has_romanized": 67,
+ "rom_fixed": 25,
+ "rom_dropped_nonascii": 2,
+ "has_code_mixed": 3,
+ "passages_out": 1224,
+ "full_triples": 1154,
+ "queries_out": 3602
+}

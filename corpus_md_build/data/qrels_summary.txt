@@ -1,0 +1,17 @@
+graded queries 6502 | qrels rows 1141
+
+by script:
+  bengali_script           n= 2324  answered  7.0%  weak  8.5%  none 84.5%
+  mixed_script             n= 2409  answered  1.5%  weak  3.8%  none 94.7%
+  romanized_bengali_english n= 1769  answered  0.0%  weak  0.1%  none 99.9%
+
+by domain:
+  agriculture              n=  860  answered  2.0%  weak  1.9%  none 96.2%
+  ecommerce_products       n=  358  answered  0.8%  weak  2.0%  none 97.2%
+  education                n= 1060  answered  1.3%  weak  4.5%  none 94.2%
+  government_civics        n=  880  answered  3.4%  weak  5.0%  none 91.6%
+  health                   n= 1027  answered  4.0%  weak  5.3%  none 90.7%
+  history_culture          n=  202  answered 18.3%  weak  4.5%  none 77.2%
+  news_current_affairs     n=  635  answered  0.5%  weak  3.5%  none 96.1%
+  technology               n=  727  answered  2.8%  weak  5.8%  none 91.5%
+  university_admissions    n=  753  answered  4.5%  weak  6.5%  none 89.0%

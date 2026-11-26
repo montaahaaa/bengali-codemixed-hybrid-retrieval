@@ -14,3 +14,34 @@ data/processed/*
 data/corpus/*
 models/*
 !**/.gitkeep
+
+# Small corpus docs stay tracked (corpus.jsonl stays ignored)
+!data/corpus/CORPUS_CARD.md
+!data/corpus/en_filter.json
+!data/corpus/stats.json
+!data/corpus/reading_notes.md
+!data/corpus/en_filter_counts.json
+
+# Private collected text (never commit)
+data collection/
+
+# Draft benchmark holds raw platform text (private until rewritten and cleared)
+data/benchmark_draft/
+
+
+# Check sheets contain platform comment text (private)
+data/benchmark_full/CHECK_ME/
+data/benchmark_full/youtube_useful.csv
+
+# Project notes and paper drafts: keep local, do not push
+specs/
+paper/
+advisor/
+submission.zip
+
+# Large or unlicensed data (keep local)
+corpus_md_build/data/raw/
+corpus_md_build/data/corpus.jsonl
+corpus_md_build/data/corpus_pilot.jsonl
+corpus_md_build/data/*.npy
+submission/corpus.csv

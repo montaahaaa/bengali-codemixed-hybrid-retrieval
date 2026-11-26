@@ -1,0 +1,106 @@
+{
+ "n_queries": 10162,
+ "script": {
+  "bangla": 3482,
+  "romanized": 3468,
+  "mixed": 3212
+ },
+ "split": {
+  "train": 7183,
+  "test": 1436,
+  "dev": 1543
+ },
+ "split_x_script": {
+  "train": {
+   "bangla": 2462,
+   "romanized": 2453,
+   "mixed": 2268
+  },
+  "dev": {
+   "bangla": 527,
+   "romanized": 525,
+   "mixed": 491
+  },
+  "test": {
+   "bangla": 493,
+   "romanized": 490,
+   "mixed": 453
+  }
+ },
+ "domain": [
+  [
+   "history_culture",
+   3458
+  ],
+  [
+   "technology",
+   1061
+  ],
+  [
+   "people",
+   977
+  ],
+  [
+   "health",
+   886
+  ],
+  [
+   "government_law",
+   785
+  ],
+  [
+   "economy_fees",
+   614
+  ],
+  [
+   "other",
+   519
+  ],
+  [
+   "science",
+   518
+  ],
+  [
+   "education",
+   505
+  ],
+  [
+   "geography",
+   414
+  ],
+  [
+   "transport_local",
+   345
+  ],
+  [
+   "agriculture",
+   71
+  ],
+  [
+   "sports",
+   9
+  ]
+ ],
+ "source_tier": {
+  "llm_generated_unreviewed": 10017,
+  "llm_generated_human_reviewed_romanized": 145
+ },
+ "gold_source_type": {
+  "wikipedia": 10120,
+  "web": 42
+ },
+ "gold_source_site": {
+  "mopa.gov.bd": 39,
+  "moedu.gov.bd": 3
+ },
+ "gold_passages": 3560,
+ "words_per_query": 10.2,
+ "reviewed": {
+  "corrected": 81,
+  "verified_no_change": 64
+ },
+ "corpus": {
+  "wikipedia": 99567,
+  "web": 433
+ }
+}

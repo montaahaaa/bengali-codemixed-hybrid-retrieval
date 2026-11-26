@@ -1,0 +1,80 @@
+{
+ "script|bangla": {
+  "n": 493,
+  "bm25": 0.541,
+  "dense": 0.695,
+  "adaptive": 0.737
+ },
+ "script|mixed": {
+  "n": 453,
+  "bm25": 0.301,
+  "dense": 0.636,
+  "adaptive": 0.672
+ },
+ "script|romanized": {
+  "n": 490,
+  "bm25": 0.02,
+  "dense": 0.126,
+  "adaptive": 0.22
+ },
+ "domain|history_culture": {
+  "n": 443,
+  "bm25": 0.295,
+  "dense": 0.451,
+  "adaptive": 0.538
+ },
+ "domain|technology": {
+  "n": 184,
+  "bm25": 0.273,
+  "dense": 0.557,
+  "adaptive": 0.582
+ },
+ "domain|people": {
+  "n": 160,
+  "bm25": 0.365,
+  "dense": 0.503,
+  "adaptive": 0.56
+ },
+ "domain|health": {
+  "n": 126,
+  "bm25": 0.218,
+  "dense": 0.488,
+  "adaptive": 0.525
+ },
+ "length|<=7 words": {
+  "n": 242,
+  "bm25": 0.295,
+  "dense": 0.496,
+  "adaptive": 0.545
+ },
+ "length|8-11": {
+  "n": 771,
+  "bm25": 0.31,
+  "dense": 0.494,
+  "adaptive": 0.547
+ },
+ "length|>=12": {
+  "n": 423,
+  "bm25": 0.242,
+  "dense": 0.452,
+  "adaptive": 0.525
+ },
+ "overlap|bangla": 0.397,
+ "adaptive_gold_rank|bangla": {
+  "in_top10": 0.915,
+  "in_top100": 0.984,
+  "in_candidates": 0.992
+ },
+ "overlap|mixed": 0.257,
+ "adaptive_gold_rank|mixed": {
+  "in_top10": 0.863,
+  "in_top100": 0.949,
+  "in_candidates": 0.998
+ },
+ "overlap|romanized": 0.005,
+ "adaptive_gold_rank|romanized": {
+  "in_top10": 0.343,
+  "in_top100": 0.58,
+  "in_candidates": 0.871
+ }
+}

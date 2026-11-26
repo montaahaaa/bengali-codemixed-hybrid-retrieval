@@ -1,0 +1,3 @@
+{'health': 1306, 'education': 2173, 'technology': 524, 'economy_fees': 505, 'government_law': 1816, 'agriculture': 4270, 'transport_local': 2645, 'history_culture': 2505} | selected 3600
+skip d_0049151 Expecting ',' delimiter: line 1 column 299 (char 298)
+done in 2980 s

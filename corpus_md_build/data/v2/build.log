@@ -1,0 +1,1 @@
+{'triples': 830, 'script_mismatch_dropped': 11, 'incomplete_triple_dropped': 3} queries 2490 Counter({'train': 1737, 'dev': 390, 'test': 363})
