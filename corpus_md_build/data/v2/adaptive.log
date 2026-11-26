@@ -1,0 +1,49 @@
+W1116 07:15:59.996000 22513 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+lookup skeletons 114025
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11510.26it/s]
+256 / 1737
+512 / 1737
+768 / 1737
+1024 / 1737
+1280 / 1737
+1536 / 1737
+1737 / 1737
+train bangla     n= 579  nDCG@10 by dense weight: 0.0:0.548 0.1:0.567 0.2:0.592 0.3:0.619 0.4:0.647 0.5:0.668 0.6:0.687 0.7:0.696 0.8:0.715 0.9:0.707 1.0:0.676 -> chosen 0.8
+train mixed      n= 579  nDCG@10 by dense weight: 0.0:0.337 0.1:0.368 0.2:0.399 0.3:0.444 0.4:0.492 0.5:0.537 0.6:0.570 0.7:0.621 0.8:0.655 0.9:0.669 1.0:0.647 -> chosen 0.9
+train romanized  n= 579  nDCG@10 by dense weight: 0.0:0.119 0.1:0.131 0.2:0.149 0.3:0.162 0.4:0.186 0.5:0.210 0.6:0.224 0.7:0.224 0.8:0.186 0.9:0.131 1.0:0.088 -> chosen 0.7
+256 / 753
+512 / 753
+753 / 753
+
+chosen weights (dense): {'bangla': np.float64(0.8), 'mixed': np.float64(0.9), 'romanized': np.float64(0.7)}
+
+TEST nDCG@10
+bucket         n           dense    fixed0.7_raw   fixed0.7_norm        adaptive
+bangla       121           0.709           0.740           0.742           0.756
+mixed        121           0.662           0.622           0.645           0.685
+romanized    121           0.126           0.066           0.216           0.216
+ALL          363           0.499           0.476           0.534           0.552
+
+DEV nDCG@10
+bucket         n           dense    fixed0.7_raw   fixed0.7_norm        adaptive
+bangla       130           0.618           0.704           0.704           0.708
+mixed        130           0.569           0.610           0.632           0.622
+romanized    130           0.127           0.060           0.201           0.201
+ALL          390           0.438           0.458           0.512           0.510
+paired test bangla    adaptive - fixed0.7_norm: +0.013 [-0.005, +0.032] n=121
+paired test bangla    adaptive - dense        : +0.046 [+0.010, +0.084] n=121
+paired test mixed     adaptive - fixed0.7_norm: +0.040 [+0.000, +0.080] n=121
+paired test mixed     adaptive - dense        : +0.024 [-0.002, +0.051] n=121
+paired test romanized adaptive - fixed0.7_norm: +0.000 [+0.000, +0.000] n=121
+paired test romanized adaptive - dense        : +0.090 [+0.027, +0.150] n=121
+paired test ALL       adaptive - fixed0.7_norm: +0.018 [+0.004, +0.033] n=363
+paired test ALL       adaptive - dense        : +0.053 [+0.027, +0.079] n=363
+paired dev bangla    adaptive - fixed0.7_norm: +0.004 [-0.011, +0.019] n=130
+paired dev bangla    adaptive - dense        : +0.090 [+0.057, +0.125] n=130
+paired dev mixed     adaptive - fixed0.7_norm: -0.010 [-0.047, +0.027] n=130
+paired dev mixed     adaptive - dense        : +0.053 [+0.021, +0.087] n=130
+paired dev romanized adaptive - fixed0.7_norm: +0.000 [+0.000, +0.000] n=130
+paired dev romanized adaptive - dense        : +0.074 [+0.018, +0.130] n=130
+paired dev ALL       adaptive - fixed0.7_norm: -0.002 [-0.016, +0.012] n=390
+paired dev ALL       adaptive - dense        : +0.072 [+0.049, +0.097] n=390

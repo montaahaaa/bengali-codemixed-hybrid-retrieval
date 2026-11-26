@@ -1,0 +1,30 @@
+W1116 07:15:26.508000 22490 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+lookup skeletons 114025
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11269.23it/s]
+256 / 753
+512 / 753
+753 / 753
+
+TEST nDCG@10 / R@10
+group          n            bm25    bm25_norm_K1    bm25_norm_K3    bm25_norm_K5        dense_e5   convex0.7_raw  convex0.7_norm         rrf_raw        rrf_norm
+bangla       121     0.595/0.752     0.604/0.760     0.604/0.760     0.604/0.760     0.708/0.917     0.740/0.909     0.742/0.917     0.705/0.868     0.705/0.868
+mixed        121     0.326/0.446     0.356/0.496     0.371/0.512     0.348/0.496     0.662/0.835     0.622/0.802     0.645/0.826     0.564/0.785     0.601/0.810
+romanized    121     0.011/0.017     0.085/0.140     0.126/0.182     0.139/0.231     0.126/0.190     0.066/0.157     0.215/0.339     0.072/0.140     0.225/0.364
+ALL          363     0.311/0.405     0.348/0.466     0.367/0.485     0.364/0.496     0.498/0.647     0.476/0.623     0.534/0.694     0.447/0.598     0.510/0.680
+
+DEV nDCG@10 / R@10
+group          n            bm25    bm25_norm_K1    bm25_norm_K3    bm25_norm_K5        dense_e5   convex0.7_raw  convex0.7_norm         rrf_raw        rrf_norm
+bangla       130     0.518/0.662     0.519/0.662     0.519/0.662     0.519/0.662     0.618/0.808     0.704/0.885     0.704/0.885     0.666/0.846     0.667/0.846
+mixed        130     0.284/0.408     0.294/0.438     0.299/0.431     0.297/0.438     0.569/0.762     0.613/0.754     0.632/0.777     0.554/0.738     0.562/0.738
+romanized    130     0.005/0.015     0.080/0.138     0.135/0.185     0.143/0.254     0.127/0.200     0.062/0.138     0.191/0.308     0.054/0.115     0.195/0.285
+ALL          390     0.269/0.362     0.298/0.413     0.317/0.426     0.320/0.451     0.438/0.590     0.460/0.592     0.509/0.656     0.425/0.567     0.475/0.623
+paired nDCG@10 romanized bm25_norm_K3 - bm25: +0.122  95% CI [+0.087, +0.160]  (dev+test, n=251)
+paired nDCG@10 romanized convex0.7_norm - convex0.7_raw: +0.138  95% CI [+0.102, +0.176]  (dev+test, n=251)
+paired nDCG@10 romanized convex0.7_norm - dense_e5: +0.076  95% CI [+0.038, +0.119]  (dev+test, n=251)
+paired nDCG@10 mixed     bm25_norm_K3 - bm25: +0.030  95% CI [-0.000, +0.061]  (dev+test, n=251)
+paired nDCG@10 mixed     convex0.7_norm - convex0.7_raw: +0.021  95% CI [+0.002, +0.040]  (dev+test, n=251)
+paired nDCG@10 mixed     convex0.7_norm - dense_e5: +0.025  95% CI [-0.012, +0.062]  (dev+test, n=251)
+paired nDCG@10 bangla    bm25_norm_K3 - bm25: +0.005  95% CI [+0.000, +0.012]  (dev+test, n=251)
+paired nDCG@10 bangla    convex0.7_norm - convex0.7_raw: +0.001  95% CI [+0.000, +0.004]  (dev+test, n=251)
+paired nDCG@10 bangla    convex0.7_norm - dense_e5: +0.061  95% CI [+0.030, +0.092]  (dev+test, n=251)

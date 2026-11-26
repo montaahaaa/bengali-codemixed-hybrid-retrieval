@@ -1,0 +1,48 @@
+{
+  "questions": 20,
+  "by_answer": {
+    "no": 7,
+    "yes": 7,
+    "partial": 6
+  },
+  "per_domain": {
+    "fees": {
+      "n": 4,
+      "yes": 1,
+      "partial": 0,
+      "no": 3
+    },
+    "procedures": {
+      "n": 4,
+      "yes": 0,
+      "partial": 2,
+      "no": 2
+    },
+    "health": {
+      "n": 3,
+      "yes": 3,
+      "partial": 0,
+      "no": 0
+    },
+    "education": {
+      "n": 3,
+      "yes": 0,
+      "partial": 2,
+      "no": 1
+    },
+    "tech": {
+      "n": 3,
+      "yes": 1,
+      "partial": 1,
+      "no": 1
+    },
+    "local services": {
+      "n": 3,
+      "yes": 2,
+      "partial": 1,
+      "no": 0
+    }
+  },
+  "coverage_yes": 0.35,
+  "coverage_yes_or_partial": 0.65
+}

@@ -1,0 +1,146 @@
+﻿need_id,domain,double_review,q_romanized_id,original,verdict,reviewed_text,similarity
+R001,science,yes,G02116,glen wilson ki proshtab korechilen je kongkaler gothon r byktitto kisher dwara projabito hoy?,change,Glen Wilson ki prostab korechilen je kongkaler gothon ar byaktitto kisher dwara probhabito hoy?,0.97
+R002,geography,yes,G07083,South Sudan e 2015 er October e rajyo gulo ke koto ta state e vag kora hoyechhilo?,change,South Sudan e 2015 er October e rajyogulo ke koto ta state e bhag kora hoyechilo?,0.97
+R003,geography,yes,G03235,1898 e Athabasca glacier er pahar prothom kara uthechilo?,no change,1898 e Athabasca glacier er pahar prothom kara uthechilo?,1.0
+R004,health,yes,G05359,"patient shobdo ta English e kothay theke esheche, Latin theke ki?",no change,"patient shobdo ta English e kothay theke esheche, Latin theke ki?",1.0
+R005,history_culture,yes,G07372,Poland niye Allied shokti ra Stalin er shonge ki bidhoshi korlo?,no change,Poland niye Allied shokti ra Stalin er shonge ki bidhoshi korlo?,1.0
+R006,education,yes,G09329,albany school district e graduation rate koto chilo?,no change,albany school district e graduation rate koto chilo?,1.0
+R007,history_culture,yes,G05651,Granicus juddhe haar er pore Darius nijei ki sena netritto nilen?,no change,Granicus juddhe haar er pore Darius nijei ki sena netritto nilen?,1.0
+R008,people,yes,G04021,peter kalmus kun shohore jonmo niyechilen?,no change,peter kalmus kun shohore jonmo niyechilen?,1.0
+R009,government_law,yes,G09111,bangladesher songbidhane ekhon moto bar songshodhon hoyeche?,change,Bangladesher songbidhane ekhon mot koto bar songshodhon hoyeche?,0.97
+R010,education,yes,G03082,helsinki er national museum e kon somoy theke shuru kore itihas dekhano hoy?,no change,helsinki er national museum e kon somoy theke shuru kore itihas dekhano hoy?,1.0
+R011,geography,yes,G07960,"Germany te sobcheye thanda area kothay, Dresden r kachakachi naki?",change,"Germany te sobcheye thanda area kothay, Dresden er kachakachi naki?",0.99
+R012,history_culture,yes,G06994,Debendranath er shathe Keshob Sen er matobhed kisher upor hoyechilo?,no change,Debendranath er shathe Keshob Sen er matobhed kisher upor hoyechilo?,1.0
+R013,history_culture,yes,G06448,Herodotus er dewa onek tottho ki archaeologist ra thik proman korechhe?,change,Herodotus er deoya onek totho ki archaeologist ra thik proman korechhe?,0.97
+R014,economy_fees,yes,G05365,ECB r euro zone er central bank gular legally koyta alada euro note chapar odhikar ache?,change,ECB ar euro zone er central bank gulor legally koyta alada euro note chapar odhikar ache?,0.98
+R015,transport_local,yes,G06054,chennai suburban railway te local ar express trains kivabe track share kore?,no change,chennai suburban railway te local ar express trains kivabe track share kore?,1.0
+R016,science,yes,G02390,scienceopen er head office kon shohore ache?,no change,scienceopen er head office kon shohore ache?,1.0
+R017,other,yes,G09108,South Sudan football association FIFA te kobe member hoyechilo?,no change,South Sudan football association FIFA te kobe member hoyechilo?,1.0
+R018,health,yes,G01714,paul campos obesity ke kon chokhe dekhechen?,no change,paul campos obesity ke kon chokhe dekhechen?,1.0
+R019,history_culture,yes,G02754,Virendra Chattopadhyay ki bamponthi na anushilon somitir sathe jukto chilen?,no change,Virendra Chattopadhyay ki bamponthi na anushilon somitir sathe jukto chilen?,1.0
+R020,history_culture,yes,G03088,jafor iqbal ahmed chhofa shomporke ki bolechen?,change,Jafor Iqbal Ahmed chhofa somporke ki bolechen?,0.99
+R021,economy_fees,yes,G07539,Iran-Malaysia bepar e dui desh kon kon bidesh mudra byobohar korte rajy hoyechilo?,change,Iran-Malaysia byapar e dui desh kon kon bideshi mudra byabohar korte razi hoyechilo?,0.94
+R022,government_law,yes,G01664,Ibn Taimiyyah er mote kon dhoroner obaddhota tazir dosh hishebe dhora hoy?,no change,Ibn Taimiyyah er mote kon dhoroner obaddhota tazir dosh hishebe dhora hoy?,1.0
+R023,government_law,yes,G06036,"polisario front er headquarter kothay, ar tara morocco-r deyal er kon ongsho control kore?",no change,"polisario front er headquarter kothay, ar tara morocco-r deyal er kon ongsho control kore?",1.0
+R024,government_law,yes,G06496,"pehla Saudi rashtro kake protishtha korechilen, ar tar sathe kon sangskarok er ittefaq chilo?",change,"Prothom Saudi rashtro kake protishtha korechilen, ar tar sathe kon songskarok er ittefaq chilo?",0.95
+R025,agriculture,yes,G03045,"jeisob jomi te jaib sar beshi peyechilo, sheigulor gach zone C er cheye koto inch lomba hoyechilo?",change,"Jesob jomi te jaib sar beshi peyechilo, segulor gach zone C er cheye koto inch lomba hoyechilo?",0.98
+R026,economy_fees,yes,G02311,"Destiny group ekhane asset kinar, CSR ar member loan e moddhe mot koto taka kharch korechhilo?",change,"Destiny group ekhane asset kinar, CSR ar member loan er moddhe mot koto taka kharch korechilo?",0.99
+R027,transport_local,yes,G04173,"Pakokku er highway gulor obostha kemon, lane koyta thake?",no change,"Pakokku er highway gulor obostha kemon, lane koyta thake?",1.0
+R028,transport_local,yes,G03884,"Korea er long distance bus gulo kom stop e thame, tader naam ki?",no change,"Korea er long distance bus gulo kom stop e thame, tader naam ki?",1.0
+R029,education,yes,G09356,Mohonpur college ta kobe toiri hoyechilo?,no change,Mohonpur college ta kobe toiri hoyechilo?,1.0
+R030,health,yes,G05857,diarrhea ar cholera er vaccine niye Firdausi Qadri ki kaj korechen?,no change,diarrhea ar cholera er vaccine niye Firdausi Qadri ki kaj korechen?,1.0
+R031,agriculture,yes,G06659,Golden rice ke normal khabar hisebe cholu korar jonno kon antorjatik songstha kaj korche?,no change,Golden rice ke normal khabar hisebe cholu korar jonno kon antorjatik songstha kaj korche?,1.0
+R032,science,yes,G09344,arabi te ibn sina ke kon upadhi diye daka hoy?,no change,arabi te ibn sina ke kon upadhi diye daka hoy?,1.0
+R033,history_culture,yes,G05440,singapore e japani bahini'r surrender nite kon allied commander ashechilo?,change,Singapore e japani bahinir surrender nite kon allied commander eshechilen?,0.96
+R034,government_law,yes,G04756,Court blast er agey TV channel e email kore kara daay sikar korechilo?,change,Court blast er age TV channel e email kore kara dayi shikar korechilo?,0.97
+R035,technology,yes,G05837,iPhone er jonno Gmail app kobe toiri hoyechilo?,no change,iPhone er jonno Gmail app kobe toiri hoyechilo?,1.0
+R036,economy_fees,yes,G09709,UK te sell hoya €500 note er koto percent organized criminals er hate ache?,change,UK te sell howa €500 note er koto percent organized criminal der hate ache?,0.97
+R037,technology,yes,G07156,"e-ink display e grayscale chobi kivabe dekhano hoy, pigment diye ki kora hoy?",no change,"e-ink display e grayscale chobi kivabe dekhano hoy, pigment diye ki kora hoy?",1.0
+R038,people,yes,G01038,Maggie Tyson phosphate niye lekha thesis ta kon university theke publish hoyechilo?,no change,Maggie Tyson phosphate niye lekha thesis ta kon university theke publish hoyechilo?,1.0
+R039,education,yes,G05631,"Howard University ki prothome kon dhoroner school hishebe vabha hoyechilo, kar jonno?",change,"Howard University ki prothome kon dhoroner school hishebe bhabha hoyechilo, kar jonno?",0.98
+R040,government_law,yes,G09485,"UN e sesh kon desh join korse, kobe?",change,"UN e shesh kon desh join korechhe, kobe?",0.92
+R041,agriculture,yes,G07702,Bishnupur 1 block e arpito jomi er koto shotangsho bonton hoyeche?,change,Bishnupur 1 block e arpito jomi er koto shotangsho bontan hoyeche?,0.98
+R042,science,yes,G09353,13 item er scale diye survey te koyta important need factor paoa gese?,change,13 item er scale diye survey te koyta important need factor paowa gechhe?,0.96
+R043,history_culture,yes,G01972,Kailas Bidyabhushon kon jelay jonmo nisilen?,change,Kailas Bidyabhushan kon jelay jonmo niyechilen?,0.92
+R044,geography,yes,G00370,"rajasthan er rawatbhata atomic plant kon jaygay ache, kota r kache?",change,"Rajasthan er Rawatbhata atomic plant kon jaygay ache, Kota er kache?",0.99
+R045,history_culture,yes,G05534,kempe gowda 2 er shohor er boundary bujhate koyta tower banaisilo?,change,Kempe Gowda 2 er shohor er boundary bujhate koyta tower baniyechilo?,0.95
+R046,other,yes,G04496,California er kono islamic institute fetal stem cell diye banano kritrim mangso khele ki bolse?,change,California er kono islamic institute fetal stem cell diye banano kritrim mangsho khele ki bolechhe?,0.97
+R047,government_law,yes,G02239,lagi baitha rally kon tarikhe hoyechilo?,no change,lagi baitha rally kon tarikhe hoyechilo?,1.0
+R048,transport_local,yes,G08585,australia highway 1 er total length koto km?,no change,australia highway 1 er total length koto km?,1.0
+R049,history_culture,yes,G00937,"hyderabader je force er moto rajakar bahini toiri hoyechilo, sheta ke banaiyechilo?",change,"Hyderabader je force er moto rajakar bahini toiri hoyechilo, seta ke baniyechilo?",0.99
+R050,education,yes,G03477,kim chaek university campus ta kokhon double kora hoyechilo?,no change,kim chaek university campus ta kokhon double kora hoyechilo?,1.0
+R051,history_culture,no,G02098,talut kar biruddhe juddho korte cholechilen?,no change,talut kar biruddhe juddho korte cholechilen?,1.0
+R052,transport_local,no,G00200,January 2024 e new time schedule chalu hoar por Motijheel metro station e ki problem hoyechilo?,change,January 2024 e new time schedule chalu howar por Motijheel metro station e ki problem hoyechilo?,0.99
+R053,technology,no,G01988,singtel er singapore e koto million mobile customer ache?,no change,singtel er singapore e koto million mobile customer ache?,1.0
+R054,education,no,G02484,electrical engineer hisebe ghorer alo ba bidyut bonton niye ki kaj kora jay?,change,Electrical engineer hisebe ghorer alo ba bidyut bontan niye ki kaj kora jay?,0.99
+R055,health,no,G08631,Ajmal Khan er nati Lahore e kon dawakhana shuru korechilo?,change,Ajmal Khan er nati Lahore e kon dawakhana shuru korechilen?,0.97
+R056,health,no,G02460,phusphuser cancer hole kon kon symptom dekha jay?,no change,phusphuser cancer hole kon kon symptom dekha jay?,1.0
+R057,geography,no,G01190,"Salwin river e boro nouka keno chole na, ar chhoto nouka keno beshi use hoto?",no change,"Salwin river e boro nouka keno chole na, ar chhoto nouka keno beshi use hoto?",1.0
+R058,agriculture,no,G01271,nobanno utshob kon mase hoy?,no change,nobanno utshob kon mase hoy?,1.0
+R059,education,no,G01933,Maharaja Tej Chand 1817 e Burdwan e ki school banaiched?,change,Maharaja Tej Chand 1817 e Burdwan e ki school baniyechhen?,0.95
+R060,education,no,G05422,hayatnagar library sarkari onudan kobe pelo?,change,Hayatnagar library sarkari anudan kobe pelo?,0.98
+R061,people,no,G00750,ajmal shahzad bradford uni te pharmacy niye koto mash porechhilen?,change,Ajmal Shahzad Bradford uni te pharmacy niye koto mash porechilen?,0.99
+R062,history_culture,no,G09241,Ramakrishna Mission ke or kobe shuru korechilen?,change,Ramakrishna Mission ke ar kobe shuru korechilen?,0.98
+R063,technology,no,G07963,computer er physical jinish gulo ke ki bole?,change,Computer er physical jinishgulo ke ki bole?,0.99
+R064,education,no,G07651,Devinagar school ta kobe sthapon hoyechilo?,no change,Devinagar school ta kobe sthapon hoyechilo?,1.0
+R065,people,no,G06027,nepal e panchayat shashon ki karone sudarshan mahasthabir ke jail e pathiyechhilo?,change,Nepal e panchayat shashon ki karone Sudarshan Mahasthabir ke jail e pathiyechilo?,0.99
+R066,economy_fees,no,G05034,25 poisha coiner front side e national emblem e ki ki chhilo?,change,25 poisha coin er front side e national emblem e ki ki chilo?,0.98
+R067,other,no,G03186,Matt Renshaw Tumbul er hoye December 2018 e koto bal e koto run korechilen?,no change,Matt Renshaw Tumbul er hoye December 2018 e koto bal e koto run korechilen?,1.0
+R068,transport_local,no,G05766,balla rail line e shesh train kobe bondho hoye gechilo?,no change,balla rail line e shesh train kobe bondho hoye gechilo?,1.0
+R069,science,no,G09071,sickle cell gene malaria theke kivabe projonno rokkha kore?,change,Sickle cell gene malaria theke kivabe projonmo rokkha kore?,0.98
+R070,government_law,no,G06160,bangladesh e mot koto ta zila porishod ache?,change,Bangladesh e mot koto ta jela porishod ache?,0.95
+R071,economy_fees,no,G08673,"Intel sorkari protisthan ar school college ke kom dame chip dito keno, ota niye ki obhijog chilo?",change,"Intel sorkari protishthan ar school college ke kom dame chip dito keno, ota niye ki obhijog chilo?",0.99
+R072,agriculture,no,G00714,rome samrajjo bhenge porar por theke 1500 shal porjonto europe e krishi kemon chilo,change,Rome samrajjo bhenge porar por theke 1500 shal porjonto Europe e krishi kemon chilo?,1.0
+R073,health,no,G04062,"mansik rog mane ki, jeta roj jibone jhamela kore?",change,"Manoshik rog mane ki, jeta roj jibone jhamela kore?",0.98
+R074,health,no,G00980,corona vaccine kader age deya hoy? boyosko manush naki health worker?,change,Corona vaccine kader age deoya hoy? Boyosko manush naki health worker?,0.99
+R075,history_culture,no,G03982,"Amarcord movie ta ke banaiche, director er naam ki?",change,"Amarcord movie ta ke baniyechhe, director er naam ki?",0.96
+R076,education,no,G00266,purbo railway protidin koto EMU train chalay?,no change,purbo railway protidin koto EMU train chalay?,1.0
+R077,people,no,G03767,Von Ardenne 1925 e kon dhoroner invention korechilen?,no change,Von Ardenne 1925 e kon dhoroner invention korechilen?,1.0
+R078,history_culture,no,G02757,Seaga Cuba r sathe diplomatic somporko chhinno korar protishruti kotodin deri kore diyechilen?,change,Seaga Cuba ar sathe diplomatic somporko chhinno korar protishruti kotodin deri kore diyechilen?,0.99
+R079,government_law,no,G00817,2022-23 APA mullayon e Jononroshason montronaloy koto number peyechilo?,change,2022-23 APA mullayon e Jonoprosashon montronaloy koto number peyechilo?,0.97
+R080,technology,no,G08304,software diye protect kora private key copy kora ki easy keno?,no change,software diye protect kora private key copy kora ki easy keno?,1.0
+R081,geography,no,G01324,garomkale malaria kome jay kano?,change,Garomkale malaria kome jay keno?,0.97
+R082,people,no,G00057,harishankar basudevan er baba ki job korto?,no change,harishankar basudevan er baba ki job korto?,1.0
+R083,agriculture,no,G09312,chandon gacher kon ongsho diye tel ber kora hoy?,change,Chandan gacher kon ongsho diye tel ber kora hoy?,0.98
+R084,education,no,G10031,Tabriz er kachakachi ei university ta kothay ache?,no change,Tabriz er kachakachi ei university ta kothay ache?,1.0
+R085,transport_local,no,G08557,Virapatti station theke next station konta?,no change,Virapatti station theke next station konta?,1.0
+R086,technology,no,G08902,ram kom pore gele OS kivabe kaj chalay?,no change,ram kom pore gele OS kivabe kaj chalay?,1.0
+R087,health,no,G03849,jomoj bhai bon er ekjon diabetes hole baki jonor roga hobar chance kotota?,change,Jomoj bhai bon er ekjon diabetes hole baki joner rog hobar chance kototuku?,0.95
+R088,history_culture,no,G09062,"prothome Odia r Bangla duitai te lekhtên, pore kon bhashay shudhu lekha shuru korlen Kabibar khyato lekhok?",change,"Prothome Odia ar Bangla duitei lekhten, pore kon bhashay shudhu lekha shuru korlen Kabibar khyato lekhok?",0.96
+R089,government_law,no,G00048,PM er office Dhaka r kothay?,change,PM er office Dhakar kothay?,0.98
+R090,agriculture,no,G02158,ravishankar sagar bundh koto borgo kilometer joma e pani sech dey?,change,Ravishankar Sagar bandh koto borgo kilometer jomi te pani sech dey?,0.96
+R091,government_law,no,G08622,income tax act 2023 e mot kotota article ache?,change,Income tax act 2023 e mot koto ta article ache?,0.99
+R092,technology,no,G07847,LED r fiber optics neon sign business er ki obostha korche?,change,LED ar fiber optics neon sign business er ki obostha korche?,0.99
+R093,government_law,no,G07446,kerala te koto gulo district ache?,change,Kerala te kotogulo district ache?,0.98
+R094,agriculture,no,G08875,maate chash kora sonali chale greenhouse er cheye beta-carotene koto gun beshi?,change,Mathe chash kora sonali chale greenhouse er cheye beta-carotene koto gun beshi?,0.99
+R095,history_culture,no,G06051,napoleon er somoye dissent thamate kon dhoroner patrika gulo bondho kora hoyechilo?,change,Napoleon er somoye dissent thamate kon dhoroner patrikagulo bondho kora hoyechilo?,0.99
+R096,history_culture,no,G02919,fazlur rahman 1951-53 e kon ministry te chilen? khaja nazimuddin er cabinet e ki dayitto chilo?,no change,fazlur rahman 1951-53 e kon ministry te chilen? khaja nazimuddin er cabinet e ki dayitto chilo?,1.0
+R097,government_law,no,G09260,2013 er amendment e tribunal er rayer biruddhe sorkar er appeal er ki odhikar chilo?,change,2013 er amendment e tribunal er rayer biruddhe sorkarer appeal er ki odhikar chilo?,0.99
+R098,transport_local,no,G05523,1920 er dike US 1 toiri hoyar somoy kon purano highway er rasta follow kora hoyechilo?,change,1920 er dike US 1 toiri howar somoy kon purano highway er rasta follow kora hoyechilo?,0.99
+R099,technology,no,G02940,2010 shale prithibite koto cellular mobile grahok chilo?,change,2010 sale prithibite koto cellular mobile grahok chilo?,0.99
+R100,technology,no,G03823,snapchat trophy r friend system e emoji k kivabe use kora hoyeche?,change,Snapchat trophy ar friend system e emoji ke kivabe use kora hoyeche?,0.98
+R101,history_culture,no,G09662,devika rani london e kothay boarding e thakte porashona korto?,no change,devika rani london e kothay boarding e thakte porashona korto?,1.0
+R102,science,no,G02317,F H Khan kon shohore jonmo nen?,no change,F H Khan kon shohore jonmo nen?,1.0
+R103,health,no,G05434,ekjon rogir shonge ashle kivabe rog chharay?,no change,ekjon rogir shonge ashle kivabe rog chharay?,1.0
+R104,education,no,G00030,1991 sale Siraj Islam ke VC pod theke keno sorie dewa hoyechilo?,change,1991 sale Siraj Islam ke VC pod theke keno sariye deoya hoyechilo?,0.95
+R105,history_culture,no,G03114,ramakrishna paramahongsho taka kena nodite phele dito?,no change,ramakrishna paramahongsho taka kena nodite phele dito?,1.0
+R106,government_law,no,G09862,"purno chandra thapa India r kon uni te porhasona korechilen, ar nijer desher kon uni te?",change,"Purno Chandra Thapa Indiar kon uni te porashona korechilen, ar nijer desher kon uni te?",0.98
+R107,economy_fees,no,G09845,Albania te nuclear power plant banate kar sathe milei kaj korar kotha cholche?,change,Albania te nuclear power plant banate kar sathe mile kaj korar kotha cholche?,0.99
+R108,technology,no,G09634,mandi iit er eduroam service e student ra kon kon jaygay internet pabe?,no change,mandi iit er eduroam service e student ra kon kon jaygay internet pabe?,1.0
+R109,economy_fees,no,G00105,Celtic Tiger er shomoye Ireland er GDP ki kisher cheye beshi barlo?,change,Celtic Tiger er somoye Ireland er GDP ki kisher cheye beshi barlo?,0.99
+R110,geography,no,G07393,qatar e beshirbhag manush kon shohore thake?,no change,qatar e beshirbhag manush kon shohore thake?,1.0
+R111,history_culture,no,G09688,constantinople siege e byzantine ra counter tunnel khurar jonno kake hire korechhilo?,change,Constantinople siege e byzantine ra counter tunnel khorar jonno kake hire korechilo?,0.98
+R112,other,no,G02670,NBC er sports radio content kon group toiri kore?,no change,NBC er sports radio content kon group toiri kore?,1.0
+R113,people,no,G05709,"USS Cole hamlar plotter der sathe Singapore e dekha korar plan chilo al kuso er, visa pelen na tai kothay gelen?",no change,"USS Cole hamlar plotter der sathe Singapore e dekha korar plan chilo al kuso er, visa pelen na tai kothay gelen?",1.0
+R114,health,no,G03934,1929 e Otfried Foerster 3rd ventricle er tumor e aakranto kon rogir operation korechilen?,change,1929 e Otfried Foerster 3rd ventricle er tumor e akranto kon rogir operation korechilen?,0.99
+R115,technology,no,G03010,1931 shale incompleteness theorem ke prokash korechilen?,change,1931 sale incompleteness theorem ke prokash korechilen?,0.99
+R116,other,no,G06814,"2020 wrestling event e total koyta match hoyechilo, pre-show soho?",no change,"2020 wrestling event e total koyta match hoyechilo, pre-show soho?",1.0
+R117,health,no,G03270,dengue hemorrhagic fever hole shorir e ki ki somossha hoy?,no change,dengue hemorrhagic fever hole shorir e ki ki somossha hoy?,1.0
+R118,science,no,G07278,presidency college e statistics lab kon professor toiri korechilen?,no change,presidency college e statistics lab kon professor toiri korechilen?,1.0
+R119,health,no,G04296,nagaon homeopathic college e bachelor degree koto bochor lage?,no change,nagaon homeopathic college e bachelor degree koto bochor lage?,1.0
+R120,agriculture,no,G02839,2017 er August porjonto ei convention e moddhe koto gulo party chilo?,change,2017 er August porjonto ei convention er moddhe kotogulo party chilo?,0.99
+R121,people,no,G05108,shorojkumar roy chowdhury prothome kon dhoroner patrikay kaj shuru korechilen?,no change,shorojkumar roy chowdhury prothome kon dhoroner patrikay kaj shuru korechilen?,1.0
+R122,economy_fees,no,G07915,lund university te 1910 er dike scandinavian itihas niye kon notun approach shuru hoyechilo?,no change,lund university te 1910 er dike scandinavian itihas niye kon notun approach shuru hoyechilo?,1.0
+R123,science,no,G02515,1999 sale 100 jon leading physicist er ekta poll e sorboker sera physicist hisebe kake vote deya hoyechilo?,change,1999 sale 100 jon leading physicist er ekta poll e sorboker sera physicist hisebe kake vote deoya hoyechilo?,1.0
+R124,economy_fees,no,G05991,taqi usmani ki kono islamic development bank award peyechen?,no change,taqi usmani ki kono islamic development bank award peyechen?,1.0
+R125,health,no,G08692,karnataka te covid case barar sathe hospital e patient bhorti er har koto theke koto hoyeche?,no change,karnataka te covid case barar sathe hospital e patient bhorti er har koto theke koto hoyeche?,1.0
+R126,history_culture,no,G04681,nazrul er political chetona kothay theke shuru hoyechhilo?,change,Nazrul er political chetona kothay theke shuru hoyechilo?,0.99
+R127,history_culture,no,G05448,"2008 e Beijing Olympic boycott kno hoyechilo, reason ki chilo?",change,"2008 e Beijing Olympic boycott keno hoyechilo, reason ki chilo?",0.99
+R128,geography,no,G07162,lithuania er sima kobe theke sthir hoyeche?,no change,lithuania er sima kobe theke sthir hoyeche?,1.0
+R129,transport_local,no,G06680,Hamid Karzai airport er purano terminal ekhon ki kaje byobohar hoy?,change,Hamid Karzai airport er purano terminal ekhon ki kaje byabohar hoy?,0.98
+R130,people,no,G05318,Juliet Bingley r husband ke kobe knight upadhi deoya hoyechilo?,change,Juliet Bingley er husband ke kobe knight upadhi deoya hoyechilo?,0.99
+R131,transport_local,no,G08310,channel tunnel e tunnel gulor moddhe maintenance er kaje konta use kora hoy?,change,Channel tunnel e tunnelgulor moddhe maintenance er kaje konta use kora hoy?,0.99
+R132,health,no,G01697,ekjon hamer rogi average koto jon manushke rog chariye dite pare?,change,Ekjon hamer rogi average koto jon manushke rog chhariye dite pare?,0.99
+R133,history_culture,no,G08408,Fieschi er machine e koyta barrel fetechilo?,change,Fieschi er machine e koyta barrel fatechilo?,0.98
+R134,technology,no,G01298,open source er definition ta kon guidelines er upor base kore banano hoyeche?,no change,open source er definition ta kon guidelines er upor base kore banano hoyeche?,1.0
+R135,technology,no,G07092,Mainulipir por Shahidlipi ar Jabbarlipi naam er font gulo ki ki toiri hoyechilo?,change,Mainulipir por Shahidlipi ar Jabbarlipi naam er fontgulo ki ki toiri hoyechilo?,0.99
+R136,economy_fees,no,G02990,afghanistan e petrol sadharonoto kon desh theke import kora hoy?,no change,afghanistan e petrol sadharonoto kon desh theke import kora hoy?,1.0
+R137,other,no,G09389,purono venue er maath niye obhijog er por notun ground e ki dhoroner ghash lagano hoyechilo?,change,Purano venue er math niye obhijog er por notun ground e ki dhoroner ghash lagano hoyechilo?,0.98
+R138,people,no,G08017,nammi dean domestic cricket e kon kon state er hoye khelechen?,no change,nammi dean domestic cricket e kon kon state er hoye khelechen?,1.0
+R139,economy_fees,no,G04593,germany te purano mudra euro te change korar sesh date koto chilo?,change,Germany te purano mudra euro te change korar shesh date koto chilo?,0.99
+R140,history_culture,no,G04012,ishaker dwitiyo chele iyakub ei upasona sthan ke ki korechilen?,change,Ishaker dwitiyo chele Iyakub ei upasonasthan ke ki korechilen?,0.99
+R141,history_culture,no,G07585,agargaon colony er kerani der shamajik obostan kemon chilo?,change,Agargaon colony er kerani der shamajik obosthan kemon chilo?,0.99
+R142,technology,no,G02172,osborne 1 laptop ta kon company banaechilo?,change,Osborne 1 laptop ta kon company baniyechilo?,0.96
+R143,education,no,G03183,darul uloom london school e student barano er request niye ofsted ki recommend korse?,change,Darul Uloom London school e student barano er request niye Ofsted ki recommend korechhe?,0.97
+R144,education,no,G00607,Open University te shara desh e koto gulo regional center ar tutorial center ache?,change,Open University te shara desh e kotogulo regional center ar tutorial center ache?,0.99
+R145,agriculture,no,G05544,choto o prantik krishoker fosol bikri niyontron korar 1972 er ain ta ki?,no change,choto o prantik krishoker fosol bikri niyontron korar 1972 er ain ta ki?,1.0

@@ -1,0 +1,12 @@
+{
+  "seen": 6407814,
+  "kept": 155758,
+  "per_domain": {
+    "fees": 17139,
+    "procedures": 17685,
+    "health": 31301,
+    "education": 37533,
+    "tech": 11061,
+    "local services": 80850
+  }
+}
